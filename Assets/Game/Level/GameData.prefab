@@ -1,0 +1,549 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5203970185061180661
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5007573236622277999}
+  - component: {fileID: 6526958431563874743}
+  m_Layer: 0
+  m_Name: GameData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5007573236622277999
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5203970185061180661}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6526958431563874743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5203970185061180661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4abdb81c5d6698340a4316a861f2c960, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Play:
+    Teams: []
+    Levels:
+    - Name: 
+      EnemyOwn: []
+      HaveBoss: 0
+      Boss:
+        Name: 
+        tank: {fileID: 0}
+        index: 0
+    Royales: []
+  Tanks:
+  - Nation: 0
+    Name: BT-2
+    level: 1
+    tank: {fileID: 2992888165674994147, guid: b452ae54abf75ae468d4914ecafb3a10, type: 3}
+    color: {r: 0.23214754, g: 0.49056602, b: 0.22908506, a: 0}
+    buildInfo:
+      Cost: 0
+      CountOwn: 1
+      CountOnScene: 0
+  - Nation: 0
+    Name: SY-5
+    level: 2
+    tank: {fileID: 6825145299149778627, guid: 368db13e13c80f942bc7a6e733e442bb, type: 3}
+    color: {r: 0.23137257, g: 0.4901961, b: 0.227451, a: 0}
+    buildInfo:
+      Cost: 0
+      CountOwn: 0
+      CountOnScene: 0
+  - Nation: 0
+    Name: BT-2
+    level: 2
+    tank: {fileID: 8392542566818601232, guid: b380fcc5baf25664ab718561a4f524a7, type: 3}
+    color: {r: 0.23137257, g: 0.4901961, b: 0.227451, a: 0}
+    buildInfo:
+      Cost: 0
+      CountOwn: 0
+      CountOnScene: 0
+  Bodies:
+  - Nation: 0
+    Name: Light Body
+    index: 0
+    level: 0
+    part: {fileID: 5524680116791966423, guid: b7faf283ff519f94d95a6e7a0025043a, type: 3}
+    color: {r: 0.38781595, g: 0.7830189, b: 0.4273669, a: 1}
+    buildInfo:
+      Cost: 0
+      CountOwn: 1
+      CountOnScene: 0
+  - Nation: 0
+    Name: Puma Body
+    index: 1
+    level: 0
+    part: {fileID: 7578254819320931515, guid: f46742e56cdba9e4b9278786bcea3620, type: 3}
+    color: {r: 0.38781595, g: 0.7830189, b: 0.4273669, a: 1}
+    buildInfo:
+      Cost: 0
+      CountOwn: 1
+      CountOnScene: 0
+  Towers:
+  - Nation: 0
+    Name: Light Tower
+    index: 0
+    level: 0
+    part: {fileID: 6463033845850527155, guid: e436e1758e2e2b348ba04aacebe97e37, type: 3}
+    color: {r: 0.38823533, g: 0.7843138, b: 0.427451, a: 1}
+    buildInfo:
+      Cost: 0
+      CountOwn: 0
+      CountOnScene: 0
+  - Nation: 0
+    Name: Puma Tower 50mm
+    index: 1
+    level: 0
+    part: {fileID: 5421982427927927257, guid: 5d08d0654ccce8a469c57a56422d4691, type: 3}
+    color: {r: 0.38823533, g: 0.7843138, b: 0.427451, a: 1}
+    buildInfo:
+      Cost: 0
+      CountOwn: 0
+      CountOnScene: 0
+  Tracks:
+  - Nation: 0
+    Name: Light Track
+    index: 0
+    level: 0
+    part: {fileID: 7274195437747788565, guid: d607d4b2abc163a499d4ec15bebe8c3a, type: 3}
+    color: {r: 0.38823533, g: 0.7843138, b: 0.427451, a: 1}
+    buildInfo:
+      Cost: 0
+      CountOwn: 0
+      CountOnScene: 0
+  - Nation: 0
+    Name: WheelTest
+    index: 1
+    level: 0
+    part: {fileID: 4292169722006414910, guid: 43f31cbc6e879d54d9e6fb129d2f950b, type: 3}
+    color: {r: 0.38823533, g: 0.7843138, b: 0.427451, a: 1}
+    buildInfo:
+      Cost: 0
+      CountOwn: 0
+      CountOnScene: 0
+  - Nation: 0
+    Name: Small Track
+    index: 2
+    level: 0
+    part: {fileID: 1025306074843176464, guid: ee1e76462a58f9c47beaec722639d899, type: 3}
+    color: {r: 0.38823533, g: 0.7843138, b: 0.427451, a: 1}
+    buildInfo:
+      Cost: 0
+      CountOwn: 0
+      CountOnScene: 0
+  Guns:
+  - Nation: 0
+    Name: 20mm Auto Gun
+    index: 0
+    level: 0
+    part: {fileID: 6351265859460565296, guid: 822ba9d218a1d9a47a0a37523104be51, type: 3}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    buildInfo:
+      Cost: 0
+      CountOwn: 0
+      CountOnScene: 0
+  - Nation: 0
+    Name: 20mm Gun
+    index: 1
+    level: 0
+    part: {fileID: 1128379833504803384, guid: 3d0ff6ad61e2e2440885060d47c7aaf9, type: 3}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    buildInfo:
+      Cost: 0
+      CountOwn: 0
+      CountOnScene: 0
+  - Nation: 0
+    Name: 20mm Super Auto Gun
+    index: 2
+    level: 0
+    part: {fileID: 8727622565152344129, guid: 46c555f0064333341b4e20f48343de86, type: 3}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    buildInfo:
+      Cost: 0
+      CountOwn: 0
+      CountOnScene: 0
+  - Nation: 0
+    Name: 37mm Small Gun
+    index: 3
+    level: 0
+    part: {fileID: 1334523932411572224, guid: 2748707e51716864ca4072eb436b9016, type: 3}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    buildInfo:
+      Cost: 0
+      CountOwn: 0
+      CountOnScene: 0
+  - Nation: 0
+    Name: 37mm Gun
+    index: 4
+    level: 0
+    part: {fileID: 7178518522533946203, guid: adf7a6990542306458968c6124b3b44b, type: 3}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    buildInfo:
+      Cost: 0
+      CountOwn: 0
+      CountOnScene: 0
+  - Nation: 0
+    Name: 37mm Auto Gun
+    index: 5
+    level: 0
+    part: {fileID: 2776007265357859894, guid: c72b5d71be9c81e458a1036877b3c4a4, type: 3}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    buildInfo:
+      Cost: 0
+      CountOwn: 0
+      CountOnScene: 0
+  - Nation: 0
+    Name: 37mm Super Auto Gun
+    index: 6
+    level: 0
+    part: {fileID: 6471697321063389297, guid: 9d1173b38a2fb0948a60c5385b41e170, type: 3}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    buildInfo:
+      Cost: 0
+      CountOwn: 0
+      CountOnScene: 0
+  - Nation: 0
+    Name: 45mm  Gun
+    index: 7
+    level: 0
+    part: {fileID: 467993631160485542, guid: 7fef90960dd94a149862e97cf72ac5d6, type: 3}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    buildInfo:
+      Cost: 0
+      CountOwn: 0
+      CountOnScene: 0
+  - Nation: 0
+    Name: 50mm  Gun
+    index: 8
+    level: 0
+    part: {fileID: 2684443011308389407, guid: 22507340bc80b9d41bab1ccdd7fa5be0, type: 3}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    buildInfo:
+      Cost: 0
+      CountOwn: 0
+      CountOnScene: 0
+  - Nation: 0
+    Name: 50mm Super Gun
+    index: 9
+    level: 0
+    part: {fileID: 2120700006197250718, guid: f72864f7454e0a34890236e4fa6d379a, type: 3}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    buildInfo:
+      Cost: 0
+      CountOwn: 0
+      CountOnScene: 0
+  - Nation: 0
+    Name: 57mm  Gun
+    index: 10
+    level: 0
+    part: {fileID: 3459032420666645004, guid: d518ddf26c5722344853d7b043b2741a, type: 3}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    buildInfo:
+      Cost: 0
+      CountOwn: 0
+      CountOnScene: 0
+  - Nation: 0
+    Name: 75mm Small Cannon
+    index: 11
+    level: 0
+    part: {fileID: 5848471375401203687, guid: 419b2fa3ad2dd554a9aa9513f0e2f285, type: 3}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    buildInfo:
+      Cost: 0
+      CountOwn: 0
+      CountOnScene: 0
+  - Nation: 0
+    Name: 75mm Cannon
+    index: 12
+    level: 0
+    part: {fileID: 8062380512771636670, guid: fb5d630b171c8dd478f9cfe7e4eb14b9, type: 3}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    buildInfo:
+      Cost: 0
+      CountOwn: 0
+      CountOnScene: 0
+  - Nation: 0
+    Name: 75mm Small Gun
+    index: 13
+    level: 0
+    part: {fileID: 3127502152674728163, guid: 5ff2ebf41b52dda4f890a5eb572bce93, type: 3}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    buildInfo:
+      Cost: 0
+      CountOwn: 0
+      CountOnScene: 0
+  - Nation: 0
+    Name: 75mm Gun
+    index: 14
+    level: 0
+    part: {fileID: 1837490507677311031, guid: 1fbe6393ab7c4af489760be5ccb04375, type: 3}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    buildInfo:
+      Cost: 0
+      CountOwn: 0
+      CountOnScene: 0
+  - Nation: 0
+    Name: 75mm Super Gun
+    index: 15
+    level: 0
+    part: {fileID: 4440253320304642928, guid: f20714de3ca9cf34999f0d0651497938, type: 3}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    buildInfo:
+      Cost: 0
+      CountOwn: 0
+      CountOnScene: 0
+  - Nation: 0
+    Name: 75mm Super Gun
+    index: 16
+    level: 0
+    part: {fileID: 4440253320304642928, guid: f20714de3ca9cf34999f0d0651497938, type: 3}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    buildInfo:
+      Cost: 0
+      CountOwn: 0
+      CountOnScene: 0
+  - Nation: 0
+    Name: 75mm Long Gun
+    index: 17
+    level: 0
+    part: {fileID: 7361162074673351762, guid: 3aee1f296fffc9642b476364073670fd, type: 3}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    buildInfo:
+      Cost: 0
+      CountOwn: 0
+      CountOnScene: 0
+  - Nation: 0
+    Name: 75mm Small Gun
+    index: 14
+    level: 0
+    part: {fileID: 467993631160485542, guid: 7fef90960dd94a149862e97cf72ac5d6, type: 3}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    buildInfo:
+      Cost: 0
+      CountOwn: 0
+      CountOnScene: 0
+  - Nation: 0
+    Name: 75mm Small Gun
+    index: 14
+    level: 0
+    part: {fileID: 467993631160485542, guid: 7fef90960dd94a149862e97cf72ac5d6, type: 3}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    buildInfo:
+      Cost: 0
+      CountOwn: 0
+      CountOnScene: 0
+  Engines:
+  - Nation: 0
+    Name: Engine 50Hp
+    index: 0
+    level: 0
+    part: {fileID: 617292294824861238, guid: 21a9b16f915bc6c4e963f630fef7d99e, type: 3}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    buildInfo:
+      Cost: 0
+      CountOwn: 0
+      CountOnScene: 0
+  - Nation: 0
+    Name: Engine 80Hp
+    index: 1
+    level: 0
+    part: {fileID: 6922459263734085047, guid: 588170d4a8a6241419f0a3d7fabfd861, type: 3}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    buildInfo:
+      Cost: 0
+      CountOwn: 0
+      CountOnScene: 0
+  - Nation: 0
+    Name: Engine 100Hp
+    index: 2
+    level: 0
+    part: {fileID: 8056883884403300082, guid: e5a1fb2d45fd25b48927f0ae21d70be7, type: 3}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    buildInfo:
+      Cost: 0
+      CountOwn: 0
+      CountOnScene: 0
+  - Nation: 0
+    Name: Engine 130Hp
+    index: 3
+    level: 0
+    part: {fileID: 6472408932996738742, guid: 2347493610132fc4f9af0366755bf650, type: 3}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    buildInfo:
+      Cost: 0
+      CountOwn: 0
+      CountOnScene: 0
+  - Nation: 0
+    Name: Engine 170Hp
+    index: 4
+    level: 0
+    part: {fileID: 7254217317678999233, guid: f3bcd897fc95ed54b9589bf977c4e8d4, type: 3}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    buildInfo:
+      Cost: 0
+      CountOwn: 0
+      CountOnScene: 0
+  - Nation: 0
+    Name: Engine 400Hp
+    index: 5
+    level: 0
+    part: {fileID: 6149275290601885246, guid: f253cad59f49fee49991a15e09bf5130, type: 3}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    buildInfo:
+      Cost: 0
+      CountOwn: 0
+      CountOnScene: 0
+  - Nation: 0
+    Name: Engine_500
+    index: 6
+    level: 0
+    part: {fileID: 6542466286465274555, guid: ba5e847a52f94434ba48678fe69caf93, type: 3}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    buildInfo:
+      Cost: 0
+      CountOwn: 0
+      CountOnScene: 0
+  - Nation: 0
+    Name: Engine_270
+    index: 7
+    level: 0
+    part: {fileID: 3439977516807317017, guid: c053b18b61bd94b478f3568be591ae92, type: 3}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    buildInfo:
+      Cost: 0
+      CountOwn: 0
+      CountOnScene: 0
+  - Nation: 0
+    Name: Engine_500
+    index: 0
+    level: 0
+    part: {fileID: 6542466286465274555, guid: ba5e847a52f94434ba48678fe69caf93, type: 3}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    buildInfo:
+      Cost: 0
+      CountOwn: 0
+      CountOnScene: 0
+  Electro:
+  - Nation: 0
+    Name: Art Support
+    index: 0
+    level: 0
+    part: {fileID: 7552796831536355705, guid: 393c33e95b851f14ca580ddf958d5003, type: 3}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    buildInfo:
+      Cost: 0
+      CountOwn: 0
+      CountOnScene: 0
+  PlayersTank:
+    Name: 
+    color: []
+    Body:
+      PartIndex: 0
+      PartType: 0
+      SubLinks: 
+      ParentLinkIndex: 0
+      Static: 0
+      color:
+      - 0
+      - 0
+      - 0
+      - 0
+      Position: []
+    Towers: []
+    Guns: []
+    Engines: []
+    LeftTracks: []
+    RightTracks: []
+    Electro: []
+  HouseBuild: []
+  GameHardLevel: 0.5
+  EffectEnable: 1
+  TargetFPS: 60
+  DamageCoeficent: 1
+  MaximumSpeed: 75
+  BulletSpeed: 50
+  LinerDrag: 0
+  WheelFixTurn:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.008497058
+      value: 0
+      inSlope: 6.8372307
+      outSlope: 6.8372307
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.10815108
+    - serializedVersion: 3
+      time: 0.30125687
+      value: 1.00011
+      inSlope: 0.015470315
+      outSlope: 0.015470315
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.13187435
+    - serializedVersion: 3
+      time: 3.003296
+      value: 0.48783875
+      inSlope: -0.21271242
+      outSlope: -0.21271242
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.14071879
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MyParticleSystem: {fileID: 2745944038981092674, guid: ca3beb2c448756046a9723dbc08ba7ba,
+    type: 3}
+  FireEffectParticle: {fileID: 3883879070019532038, guid: 7df585a493851ac4db25c4f0bb4a08a2,
+    type: 3}
+  FireRocketEffectParticle: {fileID: 7848697220351640383, guid: ede5e057263c3904b8e95b561ead9506,
+    type: 3}
+  SmokeEffectParticle: {fileID: 912557277781907542, guid: bbc20dd5b7033c849a4717a930bfb815,
+    type: 3}
+  ArmorHitParticle: {fileID: 2884151342796032058, guid: 30d0f976ad3b6084086033a2b83d2ee9,
+    type: 3}
+  PartDestroyedParticle: {fileID: 3244114697439055511, guid: 3e5944fad092c6b4a9826aa45693d58e,
+    type: 3}
+  ExplosiveParticle: {fileID: 3051801625350064000, guid: fce533bda0d7d224da2f6f8fab7cc864,
+    type: 3}
+  BulletExplosiveParticle: {fileID: 4104146435571053360, guid: 188fa1cb33df8b74aaa9df403692ff7c,
+    type: 3}
+  ExplosiveSmokeParticle: {fileID: 6821883049780313769, guid: 333e54986a5bfb34f8ae9d8d944a0a01,
+    type: 3}
+  ObjectDestoryedParticle: {fileID: 7940336412484645762, guid: 07458d9d680c69349b303539644f56ac,
+    type: 3}
+  PartsColor:
+  - {r: 0.10626904, g: 0.6320754, b: 0.10435206, a: 0}
+  - {r: 0.509434, g: 0.509434, b: 0.509434, a: 0}
+  - {r: 0.5566038, g: 0.4507478, b: 0.26517445, a: 0}
+  - {r: 0.3216447, g: 0.39619163, b: 0.49056602, a: 0}
+  Crosshair: {fileID: 5353081922841193870, guid: 7db2f86460d929b488eab848ab2d6d63,
+    type: 3}
