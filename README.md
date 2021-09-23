@@ -1,3 +1,3 @@
 # EndlessTanks
-Игра со сбором своего танка и путешествиям по бесконечно генерируемому миру!
-*В разроботке
+Game, where you can build your own tank, and ride on endless world!
+*In developing
